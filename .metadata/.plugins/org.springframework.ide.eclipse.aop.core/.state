@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="eureka-server"/>
 <aop-project name="002_demo"/>
-<aop-project name="001_demo"/>
 <aop-project name="springboot.helloworld"/>
+<aop-project name="001_demo"/>
 </aop-reference-model>
