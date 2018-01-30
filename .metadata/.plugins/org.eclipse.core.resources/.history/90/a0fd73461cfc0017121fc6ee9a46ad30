@@ -1,0 +1,5 @@
+package springboot.helloworld.beginner.friends;
+
+public class Friends {
+
+}

@@ -1,0 +1,11 @@
+package springboot.helloworld.beginner.friends;
+
+public class FriendsRepository {
+	
+	//get all friends
+	//get friend
+	//update friend
+	//delete friend
+	
+	
+}

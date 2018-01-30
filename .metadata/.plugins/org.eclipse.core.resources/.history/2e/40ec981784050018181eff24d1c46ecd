@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class Friend {
+	
+	private String name;
+	private String location;
+	private Integer year;
+
+}

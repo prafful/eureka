@@ -1,0 +1,10 @@
+package springboot.helloworld.beginner.friends;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FriendsService {
+
+	
+	
+}
