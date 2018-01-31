@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: friend-producer
+
+server:
+  port: 8883
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+  instance:
+    hostname: localhost
