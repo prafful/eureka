@@ -10,12 +10,13 @@ public class Application {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(Application.class, args);
-		ConsumerControllerClient ccc = ctx.getBean(ConsumerControllerClient.class);
-		ccc.getFriend();
+		ConsumerControllerClient consumerControllerClient = ctx.getBean(ConsumerControllerClient.class);
+		System.out.println(consumerControllerClient);
+		consumerControllerClient.getFriend();
 	}
 	
 	@Bean
-	public ConsumerControllerClient ccc() {
+	public ConsumerControllerClient consumerControllerClient() {
 		return new ConsumerControllerClient();
 	}
 }

@@ -37,7 +37,7 @@ public class ConsumerControllerClient {
 		
 		response = restTemplate.exchange(baseUrl, HttpMethod.GET, getHeaders(), String.class);
 		
-		
+		System.out.println(response.getBody());
 		
 		
 	}
